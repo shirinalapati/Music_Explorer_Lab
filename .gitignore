@@ -1,0 +1,76 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# --- Node / React ---
+node_modules/
+build/
+dist/
+.next/
+.vite/
+coverage/
+.coverage
+htmlcov/
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- Environment & secrets ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+client_secret*.json
+token*.json
+.spotify_cache
+.cache
+
+# --- OS / editor ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# --- Data, databases, models ---
+data/raw/
+data/processed/
+data/interim/
+data/external/
+*.parquet
+*.feather
+*.sqlite
+*.sqlite3
+*.db
+models/
+*.pkl
+*.joblib
+*.pt
+*.h5
+*.onnx
+
+# Allow small, explicitly shareable examples and documentation
+!data/README.md
+!data/data_dictionary.*
+!data/examples/
